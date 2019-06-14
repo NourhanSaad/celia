@@ -1,0 +1,217 @@
+html
+{
+   font-family: 'Roboto Condensed', sans-serif;
+}
+nav ul
+{
+    margin-left: 50px;
+}
+nav ul li
+{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Concert One', cursive;
+    padding-right: 15px;
+    
+}
+nav .navbar-brand
+{
+   font-family: 'Pacifico', cursive;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow:2px 2px 2px #fff;
+    letter-spacing: 6px;
+   
+    
+}
+.navbar-toggler-icon
+{
+    color: darkblue;
+    
+}
+nav form input
+{
+    width:600px;
+}
+/*cover*/
+section.cover
+{
+    width: 100%;
+    padding-bottom: 60px;
+    background-image:url(../piz.jpg);
+    height:auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    margin-top: 70px;
+  
+    
+    
+    
+}
+.cover span 
+{
+    font-weight: bold;
+    
+   font-family: 'Concert One', cursive;
+    text-align: center;
+    font-size: 32px;
+   
+    
+}
+
+.cover .title
+{
+   padding-left: 50px;
+    padding-top:50px;
+}
+.cover button
+{
+    border: none;
+    border-radius: 60%;
+    width: 150px;
+    color: #fff;
+    background: #28a745;
+    font-size:20px;
+    font-family: cursive;
+    font-weight: bold;
+    padding: 8px;
+}
+.cover button:hover
+{
+    transition: 1s;
+    
+    cursor: pointer;
+    width: 300px;
+}
+/*caaaat*/
+.cat
+{
+    height: auto;
+    width: 100%;
+    color: #000;
+    background: #eee;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.cat h2
+{
+    padding-top: 50px;
+    font-family: 'Concert One', cursive;
+}
+
+.cat h5
+{
+ 
+    font-weight: bold;
+    font-size: 15
+}
+.cat a
+{
+    color: #000;
+    font-weight: bold;
+}
+
+
+/*   feed  */
+.feed
+{
+    background-image: url(../fee.jpg);
+    width: auto;
+    
+    padding-top: 100px;
+    height: auto;
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    background-position: center;
+}
+
+
+/*branches*/
+.branch h1
+{
+    font-family: 'Concert One', cursive;
+}
+.branch p
+{
+    font-size: 20px;
+    
+    
+}
+
+
+/*contaact*/
+
+
+.contact
+{
+    background: #eee;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+   
+    
+.contact button
+{
+    border: none;
+    border-radius: 60%;
+    width: 200px;
+    color: #fff;
+    background: #28a745;
+    font-size:20px;
+    font-family: cursive;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.contact i 
+{
+    margin-bottom: 20px;
+    
+    font-size: 16px;
+    padding:18px;
+    padding-top: 70px;
+}
+.contact i:hover
+{
+    cursor: pointer;
+}
+.contact span
+{
+    margin: 8px;
+    padding: 2px;
+    border: 1px solid #000;
+    border-radius: 450%;
+    background: #eee;
+    
+}
+/*foooter*/
+
+.footer
+{
+    height: auto;
+    background: #212529;
+    text-align: center;
+    padding-bottom: 2px;
+}
+.footer i
+{
+    margin: 12px;
+    padding: 5px;
+    padding-top: 10px;
+    
+}
+.footer i:hover
+{
+    cursor: pointer
+}
+.footer p
+{
+    color: #6c757d;
+   
+}
